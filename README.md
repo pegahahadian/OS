@@ -4,13 +4,13 @@ This project demonstrates a solution to the Producer-Consumer problem using C pr
 
 **Instructions**
 
-Compile the programs using the provided commands:
+-Compile the programs using the provided commands:
 
 $ gcc producer.c -pthread -lrt -o producer
 
 $ gcc consumer.c -pthread -lrt -o consumer
 
-Run the compiled programs using the following command:
+-Run the compiled programs using the following command:
 
 $ ./producer & ./consumer &
 
@@ -18,7 +18,7 @@ $ ./producer & ./consumer &
 
 **Output Capture**
 
-To save the output to a file, use the following commands:
+-To save the output to a file, use the following commands:
 
 $ ./producer > producer_output.txt 2>&1 &
 
